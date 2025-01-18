@@ -31,7 +31,7 @@ datadir	= /var/lib/mysql
 # Instead of skip-networking the default is now to listen only on
 # localhost which is more compatible and is not less secure.
 
-bind-address		= 0.0.0.0
+bind-address		= 192.168.0.105
 
 mysqlx-bind-address	= 127.0.0.1
 #
@@ -47,7 +47,7 @@ key_buffer_size		= 16M
 # the first time they are touched
 myisam-recover-options  = BACKUP
 
-max_connections        = 5
+max_connections        = 151
 
 # table_open_cache       = 4000
 
